@@ -1,0 +1,23 @@
+.nav {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 41px 0 31px 50px;
+    &:first-child {
+        margin-left: 55px;
+    }
+    &__link {
+        display: inline-block;
+        vertical-align: top;
+        color: #ffffff;
+        margin-right: 30px;
+        font-size: 1rem;
+        margin-right: 30px;
+        transition: 0.3s;
+        &:hover {
+            color: lighten(#909ca3, 20%)
+        }
+    }
+    @media (max-width: 640px) {
+        display: none;
+    }
+}

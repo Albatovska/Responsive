@@ -1,0 +1,102 @@
+.hero {
+    min-height: 179px;
+    max-width: 1024px;
+    text-align: left;
+    background: #15b0c3;
+    margin: auto;
+    color: #ffffff;
+    &__content {
+        margin-left: 0;
+        padding: 187px 0 130px 82px;
+        @media (max-width: 640px) {
+            padding: 110px 0 15px 23px;
+        }
+        @media (max-width: 450px) {
+            padding-top: 50px;
+        }
+    }
+    &__about {
+        font-size: 4.9rem;
+        max-width: 800px;
+        text-align: left;
+        line-height: 4.65rem;
+        @media (max-width: 640px) {
+            font-size: 3rem;
+        }
+        @media (max-width: 500px) {
+            font-size: 2.5rem;
+        }
+        @media (max-width: 430px) {
+            font-size: 2rem;
+        }
+        @media (max-width: 350px) {
+            font-size: 1.7rem;
+        }
+        @media (max-width: 320px) {
+            font-size: 1.75rem;
+        }
+    }
+    @media (max-width: 980px) {
+        padding: 190px 0 165px 80px;
+    }
+    @media (max-width: 700px) {
+        padding-left: 30px;
+    }
+    @media (max-width: 640px) {
+        padding: 115px 0 110px 50px;
+    }
+    @media (max-width: 535px) {
+        padding-left: 10px;
+    }
+    @media (max-width: 320px) {
+        height: 170px;
+        padding: 35px 0 25px;
+    }
+}
+
+.hero-web {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.web-site {
+    margin-right: 316px;
+    font-size: 2.4rem;
+    letter-spacing: 2.7px;
+    color: #a8d4de;
+    @media(max-width: 640px) {
+        margin-right: 165px;
+        font-size: 1.5rem;
+    }
+    @media (max-width: 500px) {
+        margin-right: 105px;
+        font-size: 1.5rem;
+    }
+    @media (max-width: 430px) {
+        margin-right: 37px;
+    }
+    @media (max-width: 350px) {
+        font-size: 0.9rem;
+        margin-right: 69px;
+    }
+    @media (max-width: 320px) {
+        font-size: 1rem;
+        padding-left: 0;
+        margin-right: 33px;
+    }
+}
+
+.link {
+    font-size: 3rem;
+    @media (max-width: 640px) {
+        font-size: 2rem;
+    }
+    @media (max-width: 500px) {
+        font-size: 2rem;
+    }
+    @media (max-width: 320px) {
+        font-size: 1rem;
+        padding-left: 40px;
+    }
+}

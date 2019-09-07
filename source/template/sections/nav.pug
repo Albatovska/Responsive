@@ -1,0 +1,8 @@
+nav.nav
+        - var items = ['PSD WEBSITES', 'UI KITS', 'PREMIUM PSD FILES', 'ABOUT', 'BLOG']
+        each item, index in items
+          if item === 'PSD WEBSITES'
+            a.nav__link.nav__link--active(href="#")= item
+          else
+            a.nav__link(href="#")= item
+
